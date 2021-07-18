@@ -1,0 +1,1 @@
+package com.design.factory;/** * @author Zhang Yu */public class Car implements Vehicle{    public Car newInstance() {        return new Car();    }    public void product() {        System.out.println("product Car");    }}

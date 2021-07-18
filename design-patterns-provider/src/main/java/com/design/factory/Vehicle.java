@@ -1,0 +1,1 @@
+package com.design.factory;/** * @author Zhang Yu */public interface Vehicle {    /**     * 生产     */    void product();    /**     * 构造对应的抽象方法     * @return     */    Vehicle newInstance();}

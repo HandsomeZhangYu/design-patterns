@@ -1,0 +1,1 @@
+package com.design.factory.simple;import com.design.factory.Vehicle;import java.util.HashMap;import java.util.Map;/** * @author Zhang Yu */public class VehicleFactoryV2 {    private Map<String, Vehicle> registeredProducts = new HashMap<String, Vehicle>();}

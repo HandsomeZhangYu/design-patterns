@@ -1,0 +1,1 @@
+package com.design.factory.factory;import com.design.factory.Vehicle;/** * @author Zhang Yu */public class SmallCar implements Vehicle {    public void product() {        System.out.println("product SmallCar");    }    public Vehicle newInstance() {        return null;    }}
