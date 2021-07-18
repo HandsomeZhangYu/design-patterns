@@ -1,1 +1,1 @@
-package com.design.factory;/** * @author Zhang Yu */public class Truck implements Vehicle {    public Truck newInstance() {        return new Truck();    }    public void product() {        System.out.println("product Truck");    }}
+package com.design.factory;/** * @author Zhang Yu */public class Truck implements Vehicle {    @Override    public Truck newInstance() {        return new Truck();    }    @Override    public void product() {        System.out.println("product Truck");    }}
